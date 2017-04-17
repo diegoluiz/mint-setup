@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade 
-sudo apt install -y guake synapse zsh git vim virtualbox python-pip vagrant docker.io golang nodejs r-base libjpeg62 redis-tools mpg123 nmap libxml2-utils ruby ruby-dev make gcc
+sudo apt install -y guake synapse zsh git vim virtualbox python-pip vagrant docker.io golang nodejs r-base libjpeg62 redis-tools mpg123 nmap libxml2-utils ruby ruby-dev make gcc dict devhelp
 
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 

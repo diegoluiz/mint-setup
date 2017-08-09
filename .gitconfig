@@ -1,5 +1,5 @@
 [user]
-	email = diegorcl@gmail.com
+	email = @email
 	name = Diego Luiz
 [core]
 	editor = vim
@@ -31,8 +31,8 @@
 	changed = yellow bold
 	untracked = red bold
 [diff]
-	tool = vimdiff
-[difftool]
+	tool = bc3
+[difftool "bc3"]
 	prompt = false
 [github]
 	user = pkumar
@@ -195,3 +195,9 @@
 	human = name-rev --name-only --refs=refs/heads/*
 	serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
 	snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	trustExitCode = true
+[difftool]
+	prompt = false

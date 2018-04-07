@@ -8,7 +8,7 @@ sudo apt update
 sudo apt upgrade -y
 
 echo install some packages
-sudo apt install -y synapse zsh git vim python-pip python3-pip vagrant docker.io golang r-base libjpeg62 redis-tools mpg123 nmap libxml2-utils ruby ruby-dev make gcc dict devhelp htop tor torbrowser-launcher
+sudo apt install -y synapse zsh git vim python-pip python3-pip vagrant docker.io golang r-base libjpeg62 redis-tools mpg123 nmap libxml2-utils ruby ruby-dev make gcc dict devhelp htop
 
 echo install oh my zsh
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

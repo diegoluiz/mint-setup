@@ -2,7 +2,7 @@ Lazy script for Setup
 =================
 
 ```
-wget https://raw.githubusercontent.com/diegoluiz/mint-setup/master/script.sh | bash -E -
+wget https://raw.githubusercontent.com/diegoluiz/linux-setup/master/script.sh | bash -E -
 ```
 
 

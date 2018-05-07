@@ -12,5 +12,5 @@ sudo apt install -y git vim python-pip python3-pip ruby ruby-dev make gcc dict d
 
 ls scripts | while read f
 do
-    bash scripts/$f
+    sudo bash scripts/$f
 done

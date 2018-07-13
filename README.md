@@ -2,7 +2,7 @@ Lazy script for Setup
 =================
 
 ```
-wget https://raw.githubusercontent.com/diegoluiz/linux-setup/master/script.sh | bash -E -
+curl https://raw.githubusercontent.com/diegoluiz/linux-setup/master/base.sh | bash -E -
 ```
 
 
